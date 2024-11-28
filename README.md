@@ -1,6 +1,6 @@
 # Projecte XYZ
 **Històries del "Equemm"**  
-![alt text](/EquemResources/EquemmClassicV2B.png | width=300 height=300)
+![alt text](/EquemResources/EquemmClassicV2B.png = 250x250)
 Benvingut/da a *Projecte XYZ*, un lloc web creat per i per al grup d'amics d' *Equemm*. Aquest projecte és una plataforma per compartir i explorar històries inspirades en les nostres experiències úniques en jocs.  
 
 ---
