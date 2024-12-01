@@ -36,7 +36,47 @@ Aquest projecte està desenvolupat amb:
 Aquest projecte ha estat creat amb dedicació i entusiasme per:  
 
 - **Unai Conus**  
-- **Victor Redel**  
+- **Victor Redel**
+
+# Implementacio del Projecte
+
+## VM + Apache
+Per implementar el projecte es necessari tenir una maquina virtual amb Debian ( Recomenat: No grafic) o
+una VM amb Ubuntu server.
+
+Una vegada creada la VM actualitzem paquets
+
+```
+sudo apt update
+sudo apt upgrade
+```
+
+Una vegada actualitzem els paquets instalem apache2
+```
+sudo apt install apache2
+```
+Una vegada instalem apache guardarem tots els fitxers PHP i CSS de la
+pagina en /var/www/html
+
+## MySql Server
+
+A continuacio instalarem una BD per gestionar usuaris per els Registers/Logins i guardar
+les seves dades per poder gestionarles mes tard en PHP i per gestionar la creacio d'histories.
+
+```
+sudo apt install mysql-server
+```
+
+Una vegada instalem la base de dades MySql, descarregem els script Sql i els importem al MySql
+```
+mysql -u root -p < SQL-Script.sql
+```
+
+> [!IMPORTANT]
+> Modifica la contrasenya del usuari de registre i de login a la teva preferencia
+
+
+
 
 🎉 Gràcies per visitar el nostre projecte!   
 
