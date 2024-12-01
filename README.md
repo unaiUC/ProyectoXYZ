@@ -36,7 +36,26 @@ Aquest projecte està desenvolupat amb:
 Aquest projecte ha estat creat amb dedicació i entusiasme per:  
 
 - **Unai Conus**  
-- **Victor Redel**  
+- **Victor Redel**
+
+# Implementacio del Projecte
+
+## VM + Apache
+Per implementar el projecte es necessari tenir una maquina virtual amb Debian ( Recomenat: No grafic) o
+una VM amb Ubuntu server.
+
+Una vegada creada la VM actualitzem paquets
+
+'''
+sudo apt update
+sudo apt upgrade
+'''
+
+Una vegada actualitzem els paquets instalem apache2
+'''
+sudo apt install apache2
+'''
+
 
 🎉 Gràcies per visitar el nostre projecte!   
 
