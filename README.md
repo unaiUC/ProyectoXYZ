@@ -55,6 +55,20 @@ Una vegada actualitzem els paquets instalem apache2
 ```
 sudo apt install apache2
 ```
+Una vegada instalem apache guardarem tots els fitxers PHP i CSS de la
+pagina en /var/www/html
+
+## MySql Server
+
+A continuacio instalarem una BD per gestionar usuaris per els Registers/Logins i guardar
+les seves dades per poder gestionarles mes tard en PHP i per gestionar la creacio d'histories.
+
+```
+sudo apt install mysql-server
+```
+
+Una vegada instalem la base de dades MySql
+
 
 
 🎉 Gràcies per visitar el nostre projecte!   
