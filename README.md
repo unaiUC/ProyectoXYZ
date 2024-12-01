@@ -46,10 +46,10 @@ una VM amb Ubuntu server.
 
 Una vegada creada la VM actualitzem paquets
 
-'''
+´´´
 sudo apt update
 sudo apt upgrade
-'''
+´´´
 
 Una vegada actualitzem els paquets instalem apache2
 '''
