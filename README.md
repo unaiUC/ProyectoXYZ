@@ -67,7 +67,14 @@ les seves dades per poder gestionarles mes tard en PHP i per gestionar la creaci
 sudo apt install mysql-server
 ```
 
-Una vegada instalem la base de dades MySql
+Una vegada instalem la base de dades MySql, descarregem els script Sql i els importem al MySql
+```
+mysql -u root -p < SQL-Script.sql
+```
+
+> [!IMPORTANT]
+> Modifica la contrasenya del usuari de registre i de login a la teva preferencia
+
 
 
 
