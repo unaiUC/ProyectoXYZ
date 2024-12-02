@@ -1,6 +1,6 @@
 ## 🗄️ Scripts SQL  
 
-En aquesta secció es proporcionen els scripts necessaris per implementar tota la base de dades, incloent-hi la creació de taules, usuaris i altres elements requerits per al correcte funcionament del projecte. Els scripts estan dissenyats per funcionar en una base de dades MySQL.  
+En aquesta secció es proporciona el script necessaris per implementar tota la base de dades, incloent-hi la creació de taules, usuaris i altres elements requerits per al correcte funcionament del projecte. El script estan dissenyat per funcionar en una base de dades MySQL.  
 
 ### 📂 Contingut dels script
 1. **`BD`:**  
