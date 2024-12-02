@@ -15,12 +15,12 @@ CREATE USER 'userreg'@'localhost' IDENTIFIED BY '****************';
 GRANT INSERT, SELECT ON proyectoXYZ.loginsXYZ TO 'userreg'@'localhost';
 
 CREATE TABLE historias (
-    idhistoria INT AUTO_INCREMENT,
+    idhistoria INTEGER AUTO_INCREMENT,
     titulo VARCHAR(255),
     texto MEDIUMTEXT,
     Organizacion VARCHAR(255),
     Classification VARCHAR(255),
     fecha DATE,
-    usuario VARCHAR(255),
+    usuario VARCHAR(16),
     PRIMARY KEY (idhistoria)
 );
