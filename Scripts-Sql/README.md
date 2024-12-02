@@ -41,7 +41,7 @@ Segueix aquests passos per implementar la base de dades:
 
 3. **Executar els script:**  
    - Executa `SQL-Script.sql` per crear la base de dades.
-   ⚠️És possible que necessites adaptar el script a les necessitats del teu *hosting*, pro a nosaltres amb Proxmox VE fent ús de MySQL de PVE Helper Scripts + Debian 12 LXC        ens ha funcionat.⚠️
+   - ⚠️És possible que necessites adaptar el script a les necessitats del teu *hosting*, pro a nosaltres amb Proxmox VE fent ús de MySQL de PVE Helper Scripts + Debian 12         LXC        ens ha funcionat.⚠️
      
    Exemple d'execució des de la línia de comandes:  
    ```bash
