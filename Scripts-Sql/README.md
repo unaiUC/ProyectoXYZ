@@ -10,23 +10,23 @@ En aquesta secció es proporciona el script necessaris per implementar tota la b
 2. **`Taules`:**  
    - Inclou les sentències per crear totes les taules i columnes necessàries:  
      - Històries
-       -ID Historia
-       -Titulo
-       -Texto
-       -Organizacion
-       -Classification
-       -Fecha
-       -Usuario  
+       - ID Historia
+       - Titulo
+       - Texto
+       - Organizacion
+       - Classification
+       - Fecha
+       - Usuario  
      - Usuaris
-       -ID Usuario
-       -Nombre
-       -Contraseña 
+       - ID Usuario
+       - Nombre
+       - Contraseña 
 
 3. **`Usuaris`:**  
    - Crea els usuaris necessaris per accedir i modificar la base de dades
-     -addhistory
-     -login
-     -register
+     - addhistory
+     - login
+     - register
      
 4. **`Permisos`:**
    - Permisos de *Select* al usuari de Login que es fara servir per consultar
