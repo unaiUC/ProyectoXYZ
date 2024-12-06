@@ -1,0 +1,266 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header img {
+    max-width: 100px;
+}
+
+.h1Tit {
+    color: #fff;
+}
+.h2Tit {
+    color: #fff;
+}
+
+header h1 {
+    margin: 10px 0;
+}
+
+header h2 {
+    margin: 5px 0;
+    font-size: 1.2em;
+}
+
+
+@keyframes brillo {
+    0%, 100% {
+        box-shadow: 0 0 10px gold;
+    }
+    50% {
+        box-shadow: 0 0 20px gold;
+    }
+}
+@keyframes brillobutton {
+    0%, 100% {
+        box-shadow: 0 0 10px rgb(255, 0, 0);
+    }
+    50% {
+        box-shadow: 0 0 20px rgb(255, 0, 0);
+    }
+}
+
+
+.tablecaso {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.85);
+    border: 4px solid gold;
+    border-radius: 5px;
+    box-shadow: 0 0 20px;
+    padding: 20px;
+    gap: 20px;
+    animation: brillo 2s infinite alternate;
+}
+
+.columnacaso {
+    width: 90%;
+}
+
+
+.titulo {
+    color: gold;
+    margin-bottom: 10px;
+}
+
+
+.titulocaso {
+    color: gold;
+    margin-bottom: 10px;
+}
+
+.textocaso {
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+}
+
+.right-panel {
+    position: absolute;
+    top: 80px;
+    right: 20px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.casoboton {
+    background-color: #ff5722;
+    color:#333;
+    border: 4px solid rgb(255, 0, 0);
+    box-shadow: 0 0 20px;
+    padding: 10px;
+    animation: brillobutton 2s infinite alternate;
+}
+
+.casoboton:hover {
+    background-color: #e64a19;
+    transform: scale(1.05);
+}
+
+button {
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#crear-historia {
+    background-color: #ff5722;
+}
+
+#crear-historia:hover {
+    background-color: #e64a19;
+    transform: scale(1.05);
+}
+
+#bienvenida {
+    background-color: #4caf50;
+}
+
+#bienvenida:hover {
+    background-color: #388e3c;
+    transform: scale(1.05);
+}
+
+#login {
+    background-color: #4caf50;
+}
+
+#login:hover {
+    background-color: #388e3c;
+    transform: scale(1.05);
+}
+
+#logout {
+    background-color: #ff1100;
+}
+
+#logout:hover {
+    background-color: #d32f2f;
+    transform: scale(1.05);
+}
+
+main {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.85);
+}
+
+section {
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h3 {
+    margin-top: 0;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer button {
+    background-color: #ff5722;
+}
+
+footer button:hover {
+    background-color: #e64a19;
+    transform: scale(1.05);
+}
+
+.ver-mas { 
+    background-color: #4caf50; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 16px;  
+    margin: 4px 2px; 
+    cursor: pointer; 
+    border-radius: 5px;  
+    transition: background-color 0.3s ease, transform 0.2s ease;  
+}
+
+.ver-mas:hover { 
+    background-color: #45a049; 
+    transform: scale(1.05);
+}
+
+
+.user-display {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #555;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+
+    flex: 1;
+    background-color: rgba(50, 0, 0, 0.8);
+    color: #ff3d3d;
+    border: 2px solid red;
+    box-shadow: 0 0 10px red;
+    text-align: center;
+    font-style: italic;
+}
+.botonEditar {
+  position: absolute;
+  left: 30px;
+  font-size: 16px;
+  top: 160px;  
+  padding: 10px 24px; 
+  flex: 1;
+  background-color: #FAD201;
+  color: #000000;
+  border: 2px solid rgb(0, 0, 0);
+  box-shadow: 0 0 10px #FAD201;
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.botonEditar p {
+    color: #defa28;
+    font-weight: bold;
+    margin: 0;
+}
+.user-display p {
+    margin: 0;
+    font-weight: bold;
+    color: #ff0400; 
+}

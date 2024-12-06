@@ -1,0 +1,118 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1e1e1e; 
+    color: #f5f5f5; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    overflow: hidden; /* Evita barras de desplazamiento en el fondo */
+}
+
+/* Tarjeta que contiene el formulario */
+.form-card {
+    background-color: #2b2b2b; 
+    border: 2px solid #f5d142; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); 
+    padding: 20px;
+    width: 100%;
+    max-width: 500px; 
+    height: 90vh; 
+    overflow-y: auto; 
+    animation: fadeIn 0.5s ease-in-out; /* Animación */
+}
+
+/* Animación de entrada */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* Encabezado del formulario */
+h1 {
+    color: #f5d142; 
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Diseño del formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+}
+
+/* Etiquetas */
+label {
+    font-weight: bold;
+    color: #f5d142; 
+    text-align: left;
+}
+
+
+input[type="text"], 
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #f5d142; 
+    border-radius: 5px;
+    background-color: #1e1e1e; 
+    color: #f5f5f5; 
+    font-size: 1rem;
+    resize: none; /* Impide el redimensionamiento manual */
+    overflow-y: auto; /* Activa el scroll automático solo en vertical */
+    overflow-x: hidden; /* Desactiva el scroll horizontal */
+    white-space: pre-wrap; 
+    word-wrap: break-word; 
+    transition: border-color 0.3s, box-shadow 0.3s; /* Transiciones */
+}
+
+
+input[type="text"]:focus, 
+textarea:focus {
+    border-color: #ffd700; 
+    box-shadow: 0 0 6px #ffd700; 
+    outline: none;
+}
+
+/* Botones */
+button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #f5d142; 
+    background-color: #1e1e1e; 
+    color: #f5f5f5; 
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+
+button:hover {
+    background-color: #f5d142; 
+    color: #1e1e1e; 
+    transform: scale(1.05); 
+}
+
+/* Botón adicional (Volver) */
+button:last-of-type {
+    margin-top: 10px;
+    background-color: #333333; 
+}
+
+button:last-of-type:hover {
+    background-color: #f5d142; 
+    color: #1e1e1e; 
+}
