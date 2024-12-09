@@ -3,7 +3,7 @@ $servername = 'ipddbb'; // o la dirección de tu servidor
 
 $username = ''; // tu usuario de MySQL
 
-$password = 'hZF$86@#7Phk.fTITz]yuGx<0?#8£.b)$vfz8RVXKm/eF3E9'; // tu contraseña de MySQL
+$password = '***********************'; // tu contraseña de MySQL
 
 $dbname = ''; // el nombre de tu base de datos
 
