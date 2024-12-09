@@ -3,7 +3,7 @@
 
 ##  🏗️ Construcio i Funcionament 🚧
 
-## ⚙️ Com funciona la nostra web?
+### ⚙️ Com funciona la nostra web?
 La nostra web funció amb tres contenidors LXC, un de MySQL i un altre de Apache2 + Php això fa que en tinguem la part de Back-end més separada del Front-end y un contenidor LXC amb Cloudflare Zero Trust
 
 ![Esquema de como funciona nuestro ejemplo](/EquemResources/esquemaestructura.png)
